@@ -1,6 +1,4 @@
-<h1 align="center">Whaticket Baileys cumunidade |Canal Vem Fazer</h1>
 
-<h1 align="center">https://www.youtube.com/@vemfazer</h1>
 
 
 ## Vamos instalar?
@@ -8,7 +6,7 @@
 FAZENDO DOWNLOAD DO INSTALADOR & INICIANDO A PRIMEIRA INSTALAÇÃO (USAR SOMENTE PARA PRIMEIRA INSTALAÇÃO):
 
 ```bash
-sudo apt install -y git && git clone https://github.com/canalvemfazer/instalador install && sudo chmod -R 777 ./install && cd ./install && sudo ./install_primaria
+sudo apt install -y git && git clone https://github.com/Hunelyton/instalador install && sudo chmod -R 777 ./install && cd ./install && sudo ./install_primaria
 ```
 
 ACESSANDO DIRETORIO DO INSTALADOR & INICIANDO INSTALAÇÕES ADICIONAIS (USAR ESTE COMANDO PARA SEGUNDA OU MAIS INSTALAÇÃO:
@@ -29,18 +27,14 @@ Email válido para certificação SSL
 
 ## Consultoria e contato:
 
-    CANAL VEM FAZER LTDA
+    Hunelyton Mendes
 
-    Fone: 81 99627-7285(WhatsApp)
+    Fone: 13 98119-6498 (WhatsApp)
 
 
 ## Se o conteúdo te ajudou ajude este projeto:
-(Nos ajude a trazer novos conteúdos todos os dias!)
-
-
-Copia e cola:
-
-    00020126580014BR.GOV.BCB.PIX01362e05806e-d1b7-4eb7-b1db-f02009c7bc015204000053039865802BR592552.262.410 RAPHAEL BATIST6009SAO PAULO61080540900062250521IteWKSyU6xhcUBH1lncfj63040504
 
 
 
+
+    
