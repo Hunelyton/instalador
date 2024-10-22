@@ -24,7 +24,7 @@ print_banner() {
 printf "${CYAN_LIGHT}";
 
 
-printf ${CYAN_LIGHT}" ____   ____  ________  ____    ____   ________    _       ________  ________  _______   \n";  
+printf ${CYAN_LIGHT}"  OBRIGADO POR ESCOLHER O E-CHAT   \n";  
                                                                                                                                                          
 
 
