@@ -1,16 +1,16 @@
 #!/bin/bash
 
-echo "Iniciando o processo de desinstalação..."
+echo "Iniciando o processo de desinstalaï¿½ï¿½o..."
 
-# Parar e deletar aplicações gerenciadas pelo PM2
+# Parar e deletar aplicaï¿½ï¿½es gerenciadas pelo PM2
 sudo pm2 stop all
 sudo pm2 delete all
 sudo npm uninstall pm2 -g
 
-# Remover Node.js, npm e dependências do Puppeteer
+# Remover Node.js, npm e dependï¿½ncias do Puppeteer
 sudo apt remove --purge -y nodejs npm
 
-# Remover Docker e contêineres
+# Remover Docker e contï¿½ineres
 sudo apt remove --purge -y docker docker-engine docker.io containerd runc
 sudo docker container prune -f
 sudo docker volume prune -f
@@ -21,17 +21,17 @@ sudo apt remove --purge -y postgresql postgresql-contrib
 sudo rm -rf /var/lib/postgresql/
 
 # Remover Redis (caso instalado sem Docker)
-# Para Redis em Docker, os contêineres já foram removidos
+# Para Redis em Docker, os containeres ja foram removidos
 
 # Remover Nginx e Certbot
 sudo apt remove --purge -y nginx certbot
 
-# Remover usuário 'deploy'
+# Remover usuario 'deploy'
 sudo deluser deploy
 sudo rm -rf /home/deploy/
 
-# Limpar pacotes não utilizados e limpar cache
+# Limpar pacotes nao utilizados e limpar cache
 sudo apt autoremove -y
 sudo apt autoclean
 
-echo "Desinstalação concluída. O sistema está limpo."
+echo "Desinstalaï¿½ï¿½o concluida. O sistema esta limpo."
