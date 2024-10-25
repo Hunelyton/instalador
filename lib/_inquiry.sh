@@ -11,7 +11,7 @@ get_mysql_root_password() {
 get_link_git() {
   
   print_banner
-  printf "${WHITE} 💻 Insira o link do GITHUB do seu Canal Vem Fazer que deseja instalar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Insira o link do GITHUB do seu projeto:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " link_git
 }
@@ -204,11 +204,11 @@ inquiry_options() {
   printf "${WHITE} 💻 Bem vindo(a) ao Gerenciador de instalação do sistema , selecione abaixo a proxima ação!${GRAY_LIGHT}"
   printf "\n\n"
   printf "   [0] Instalar sistema\n"
-  printf "   [1] Atualizar sistemaP\n"
+  printf "   [1] Atualizar sistema\n"
   printf "   [2] Deletar sistema\n"
-  printf "   [3] Bloquear sistemaP\n"
+  printf "   [3] Bloquear sistema\n"
   printf "   [4] Desbloquear sistema\n"
-  printf "   [5] Alter. dominiosistema\n"
+  printf "   [5] Alter. dominio sistema\n"
   printf "\n"
   read -p "> " option
 
